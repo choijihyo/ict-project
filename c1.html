@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex 기반 반응형 웹페이지</title>
+    <script src="js/jquery-2.2.4.min.js"></script>
+    <script src="js/jquery.bxslider.js"></script>
+    <script src="js/main.js"></script>
+
+
+    <link rel="stylesheet" href="css/jquery.bxslider.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- 내비게이션 -->
+    <nav>
+        <ul>
+            <li><a href="a1.html">2023 춘천마임축제</a></li>
+            <li><a href="b1.html">상설사업</a></li>
+            <li><a href="c1.html">갤러리</a></li>
+            <li><a href="d1.html">오시는길</a></li>
+        </ul>
+        <a href="#" id="trigger">MENU</a>
+    </nav>
+
+
+    <!-- 헤더 -->
+    <section>
+        <h1>갤러리</h1>
+        <div class="wrapper">
+            <div class="banner2">
+                <div class="bxslider">
+                    <div><img src="img/ph1.jpg"></div>
+                    <div><img src="img/ph2.jpg"></div>
+                    <div><img src="img/ph3.jpg"></div>
+                    <div><img src="img/ph4.jpg"></div>
+                    <div><img src="img/ph5.jpg"></div>
+                    <div><img src="img/ph6.jpg"></div>
+                    <div><img src="img/ph7.jpg"></div>
+                    <div><img src="img/ph8.jpg"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="wrapper">
+            <div class="banner">
+                <div class="bxslider">
+                    <div><img src="img/h1.jpg"></div>
+                    <div><img src="img/h2.jpg"></div>
+                    <div><img src="img/h3.jpg"></div>
+                    <div><img src="img/h4.jpg"></div>
+                    <div><img src="img/h5.jpg"></div>
+                    <div><img src="img/z2.jpg"></div>
+                    <div><img src="img/z3.jpg"></div>
+                    <div><img src="img/z4.jpg"></div>
+                    <div><img src="img/z5.jpg"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="wrapper">
+            <div class="banner2">
+                <div class="bxslider">
+                    <div><img src="img/x1.jpg"></div>
+                    <div><img src="img/x2.jpg"></div>
+                    <div><img src="img/x3.jpg"></div>
+                    <div><img src="img/x4.jpg"></div>
+                    <div><img src="img/x5.jpg"></div>
+                    <div><img src="img/x6.jpg"></div>
+                    <div><img src="img/x7.jpg"></div>
+                    <div><img src="img/x8.jpg"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 한마디 : flex 사용 안 함 -->
+    <section>
+        <div class="wrapper">
+            <div class="about">
+                <div class="msg">
+                    <p><img src="img/quot-1.png"></p>
+                    <p>" We Will ROCK YOU! 우린 당신을 흔들 거예요!"<br>
+                        <span>- 춘천마임축제 슬로건 - </span>
+                    </p>
+                    <p><img src="img/quot-2.png"></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 교육 프로그램 : 한 줄에 여러 항목 -->
+    <section>
+        <div class="wrapper">
+            <header class="section-title">
+                <h3>아카이빙</h3>
+            </header>
+            <div class="program-list">
+                <div class="program">
+                    <h4>마임아카데미</h4>
+                    <p>예술가 양성을 위한 프로그램과 시민들이 직접 공연에 참여하는 프로그램,
+                        지역 청년들이 축제를 기획하고 실현하는 축제학교 등 다양한 프로그램을 진행하고 있습니다.
+                        아카데미에서 창작된 작품을 축제에서 발표하는 등 새로운 축제 콘텐츠 개발 사례를 만들어 가고 있습니다.</p>
+                </div>
+                <div class="program">
+                    <h4>문화의거리</h4>
+                    <p>다양한 시민들이 참여하고 즐길 수 있는 시민주도형 축제 프로그램입니다.
+                        일상의 거리를 바꾸는 특색있는 공간설치와 시민들이 참여하여 완성하는 거리예술 프로젝트까지,
+                        봄과 가을 두 번의 축제를 통해 예술가, 상인, 청년, 시민들이 문화 활동을 지속해 이어 나갈 수 있는 장을 마련하고 있습니다.</p>
+                </div>
+                <div class="program">
+                    <h4>상설공연</h4>
+                    <p>2019년부터 진행되고 있는 상설공연은
+                        코로나 시기 워킹스루 방식에서 착안한 산책로에서의 ‘걷다 보는 마임’으로 진행하고 있습니다.
+                        마임, 광대극, 마술, 춤, 이동형 공연 등 다양한 장르의 공연을 산책로에서 진행하고 있습니다.</p>
+                </div>
+                <div class="program">
+                    <h4>물火일체</h4>
+                    <p> 지역의 청년들이 ‘불’과 ‘꽃’으로 춘천의 유휴공간을 축제장으로 꾸미고
+지역 아티스트와 신진예술가, 마임이스트의 다양한 공연이 진행되며
+시민이 직접 다양한 음식을 만들어 먹고 지역 청년들의 헨드메이드 상품이 판매되는
+휴식 가득한 상설축제 프로그램입니다.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 푸터 -->
+    <section class="footer">
+        <div class="wrapper">
+            <div class="footer-info">
+                <div class="contact">
+                    <p> 서울특별시 XX구 XXX로 XX길 XXXXXXX / 대표 : OOO </p>
+                    <p> 사업자등록번호 : ㅁㅁㅁ-ㅁㅁ-ㅁㅁㅁㅁㅁ</p>
+                    <p> 전화 : XXXX - XXXX / 팩스 : XX - XXXX - XXXX </p>
+                    <p> 이메일 : aaa@aaa.aaa</p>
+                </div>
+                <div class="sns">
+                    <a href="#"><img src="img/fb.png"></a>
+                    <a href="#"><img src="img/tw.png"></a>
+                    <a href="#"><img src="img/ytube.png"></a>
+                    <a href="#"><img src="img/gp.png"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+</body>
+
+</html>
